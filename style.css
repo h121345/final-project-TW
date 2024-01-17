@@ -1,0 +1,154 @@
+#p1{
+	border: 1px solid black;
+text-align: center;}
+
+
+.navbar {
+	background:url(images/moroccan-zellige.jpg) 1cm;
+	padding: 10px;
+}
+
+.navbar ul {
+    overflow: hidden; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: rgba(15, 10, 5,0.7);
+	white-space: nowrap;
+}
+.navbar ul li {
+   font-size: 1.5vw;
+   display: inline-block;
+   white-space: nowrap;
+}
+
+.navbar ul li a {
+    display: inline-block;
+	color:#f8f7ffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    
+    color: #1d5e36ff;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	background-color: #b43018ff;
+	
+}
+
+
+body {
+    font-family: 'PT Sans Caption', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 3vh;
+}
+
+
+
+
+#header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	padding: 1em;
+	margin: 20px;
+	box-sizing: border-box;
+	color: white;
+	background:url(images/Main_bouregreg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.hero-header {
+	display: flex;
+	align-items: center;
+	margin: 3cm;
+	text-align: center;
+}
+
+.hero-title {
+	
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	margin: 0cm;
+	font-size:4em;
+	font-weight: bold;
+	line-height: 1;
+	text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-shadow: 1px 3px #b43018ff ;
+	}
+
+
+.center{
+	text-align: center;
+}
+.letexte {
+	 max-width: 36em; 
+	margin: auto ;
+	padding: 2em;
+
+}	
+
+
+.end_page{
+    margin-top: 90px;
+    background-color: #171E49;
+    height: 150px;
+	
+}
+.end_page p{
+    font-family: Arial, sans-serif;
+    padding-top: 40px;
+    text-align: center;
+    color: white ;
+}
+
+
+
+.maroc{
+	
+	color: #b43018ff;
+	text-decoration: underline ;
+	text-decoration-color: #1d5e36ff;
+}
+
+.motclé{
+	background-color:#e7c6ff;
+}
+img{
+	display: block;
+    margin: auto;
+	padding-bottom: 10px;
+	width: 50%;
+    height: 25%;
+}
+
+a {
+    color: #b43018ff; 
+	text-decoration-color:#1d5e36ff ;
+}
+
+
+a:hover {
+    color: #1d5e36ff;
+}
+a:visited {
+    color: #e7c6ff; 
+}
+/*
+.bottona{
+	background: url(images/fleche-noir.png);
+	display:inline-block;
+	position: sticky;
+	left: 0%;
+	bottom: 0%;
+}*/
